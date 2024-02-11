@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+
+img {
+  display: block;
+}
+
+
+.site-title {
+  text-align: center;
+}
+
+.film-item {
+  width: 300px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.film-item:hover {
+  background-color: #025179;
+  color: #fff;
+}
+
+.film-item:active {
+  background-color: #012b40;
+}
+
+.item-pic {
+  border-radius: 8px 8px 0 0;
+}
+.item-desc-wrapper {
+  padding: 20px;
+}
+.desc {
+  font-weight: 500;
+  line-height: 20px;
+  color: #7d7d7d;
+  transition: color 0.3s;
+}
+
+.desc:hover {
+  color: #fff;
+}
+
+.desc-wrapper {
+  padding: 20px;
+}
+
+
+.item-genre {
+  color: #a9a9a9;
+  transition: color 0.3s;
+}
+
+.item-genre:hover {
+  color: #fff;
+}
